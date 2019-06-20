@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Sample Login Page</title>
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -79,20 +79,9 @@
                 </div>
             @endif
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="panel">
-                         @component('components.who')
-                         @endcomponent
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-           <!--  <div class="content">
+            <div class="content">
                 <div class="title m-b-md">
-                    Sample
+                    Laravel
                 </div>
 
                 <div class="links">
@@ -104,7 +93,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
-            </div> -->
+            </div>
         </div>
     </body>
 </html>
